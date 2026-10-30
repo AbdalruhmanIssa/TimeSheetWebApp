@@ -1,0 +1,34 @@
+:root {
+  color-scheme: dark;
+  --navy-color: #0b1220;
+  --panel-color: #111a2e;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--navy-color);
+}
+
+/* the native date picker icon follows color-scheme, keep it visible on dark inputs */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.25);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
