@@ -13,6 +13,48 @@ React frontend for the [TimeSheet API](https://github.com/AbdalruhmanIssa/TimeSh
 
 Dashboards and approval queues refresh every 30 seconds; the API has no push channel.
 
+## Screenshots
+
+Taken against the API's Development demo data.
+
+### Employee
+
+| Dashboard | Log hours | My time |
+|---|---|---|
+| ![Employee dashboard](screenshots/01-employee-dashboard.jpg) | ![Log hours dialog](screenshots/02-employee-log-hours.jpg) | ![My time](screenshots/03-employee-my-time.jpg) |
+
+### Manager
+
+| Dashboard | Approvals |
+|---|---|
+| ![Manager dashboard](screenshots/04-manager-dashboard.jpg) | ![Manager approvals](screenshots/05-manager-approvals.jpg) |
+
+### Project reports (Manager and Director)
+
+| Budget | Balances | By employee |
+|---|---|---|
+| ![Project budget](screenshots/06-project-budget.jpg) | ![Project balances](screenshots/07-project-balances.jpg) | ![Hours by employee](screenshots/08-project-by-employee.jpg) |
+
+### Director
+
+| Dashboard | Projects needing attention | Approvals with budget impact |
+|---|---|---|
+| ![Director dashboard](screenshots/09-director-dashboard.jpg) | ![Projects needing attention](screenshots/10-director-projects-needing-attention.jpg) | ![Director approvals](screenshots/11-director-approvals-budget-impact.jpg) |
+
+| Approved this session | Reopen dialog | Entry reopened |
+|---|---|---|
+| ![Approved this session](screenshots/12-director-approved-this-session.jpg) | ![Reopen dialog](screenshots/13-director-reopen-dialog.jpg) | ![Entry reopened](screenshots/14-director-entry-reopened.jpg) |
+
+| Projects | New project | Clients |
+|---|---|---|
+| ![Projects](screenshots/15-director-projects.jpg) | ![New project dialog](screenshots/16-director-new-project.jpg) | ![Clients](screenshots/17-director-clients.jpg) |
+
+### Admin
+
+| Dashboard | Users |
+|---|---|
+| ![Admin dashboard](screenshots/18-admin-dashboard.jpg) | ![Users](screenshots/19-admin-users.jpg) |
+
 ## Tech stack
 
 Same libraries and patterns as [BrainovaProject](https://github.com/shathazyadeh/BrainovaProject):
